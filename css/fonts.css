@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Pari-Match";
+  src: url("../fonts/Pari-Match-Bold.eot");
+  src: local("../fonts/Pari-Match Bold"), local("Pari-Match-Bold"),
+    url("../fonts/Pari-Match-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Pari-Match-Bold.woff2") format("woff2"),
+    url("../fonts/Pari-Match-Bold.woff") format("woff"),
+    url("../fonts/Pari-Match-Bold.ttf") format("truetype"),
+    url("../fonts/Pari-Match-Bold.svg#Pari-Match-Bold") format("svg");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Pari-Match";
+  src: url("../fonts/Pari-Match-Regular.eot");
+  src: local("../fonts/Pari-Match Regular"), local("Pari-Match-Regular"),
+    url("../fonts/Pari-Match-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Pari-Match-Regular.woff2") format("woff2"),
+    url("../fonts/Pari-Match-Regular.woff") format("woff"),
+    url("../fonts/Pari-Match-Regular.ttf") format("truetype"),
+    url("../fonts/Pari-Match-Regular.svg#Pari-Match-Regular") format("svg");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}

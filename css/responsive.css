@@ -1,0 +1,292 @@
+@media (max-width: 1919.98px) {
+  header {
+    padding: 27px 30px 0 30px;
+  }
+  main .main_text {
+    padding-left: 10px;
+    width: 300px;
+  }
+  main .main_header {
+    font-size: 3rem;
+  }
+  main .main_info {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 1399.98px) {
+  main .main_text {
+    padding-left: 20px;
+  }
+  main .main_header {
+    font-size: 2.5rem;
+  }
+  main .main_info {
+    font-size: 1.5rem;
+  }
+  main .main_animate .wheel_inside {
+    left: -20px;
+  }
+  main .main_animate .wheel_outside {
+    left: -90px;
+  }
+  main .main_animate .btn {
+    left: 230px;
+  }
+  footer .footer_wrapper > div {
+    width: 17%;
+  }
+}
+@media (max-width: 1199.98px) {
+  main {
+    background: url("../img/bg/smoke.png") bottom center / contain no-repeat;
+  }
+  main .main_animate {
+    padding: 0;
+    width: 600px;
+    height: 700px;
+  }
+  main .main_animate .wheel_inside {
+    width: 80%;
+    top: 83px;
+    left: 0px;
+  }
+  main .main_animate .wheel_outside {
+    width: 100%;
+    left: -60px;
+    bottom: -5px;
+  }
+  main .main_animate .btn {
+    top: 308px;
+    left: 180px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  footer {
+    padding: 21px 0;
+    background-color: #000;
+  }
+  footer .footer_wrapper {
+    flex-wrap: wrap;
+  }
+  footer .footer_wrapper > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  footer .footer_wrapper > div:nth-child(4) {
+    width: 100%;
+    justify-content: center;
+  }
+  footer .footer_wrapper > div:nth-child(2) {
+    order: 4;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 991.98px) {
+  .wrapper {
+    background: url("../img/bg/rectangle_top.png") top center/contain no-repeat,
+      url("../img/bg/bg.jpg") center center/cover no-repeat;
+  }
+  header {
+    padding: 13px 30px 0 30px;
+  }
+  header .logo_mobile {
+    display: inline;
+  }
+  header .logo {
+    display: none;
+  }
+  header .title {
+    display: none;
+  }
+  header .button {
+    padding: 5px 10px;
+    border: 1px solid #f8ff13;
+    font-size: 14px;
+    font-weight: 700;
+    color: #f8ff13;
+    background-color: transparent;
+    transform: skew(-15deg);
+    cursor: pointer;
+  }
+  header a:hover {
+    opacity: 1;
+  }
+  header .button:hover {
+    opacity: 1;
+  }
+  main {
+    display: block;
+    background: url("../img/bg/golden_dust_mobile.png") bottom left / contain
+        repeat-x,
+      url("../img/bg/smoke.png") bottom center / contain no-repeat;
+  }
+  main .main_text_mobile {
+    display: block;
+  }
+  main .main_text_mobile .title {
+    margin-top: 12px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #f8ff13;
+  }
+  main .main_text_mobile .title span {
+    color: #fff;
+  }
+  main .main_text_mobile .header {
+    margin: 8px 0 0 120px;
+    width: 300px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 28px;
+    color: #f8ff13;
+  }
+  main .main_text_mobile .info {
+    margin-left: 120px;
+    margin-bottom: 60px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  main .main_text_mobile .info span {
+    color: #f8ff13;
+  }
+  main .main_text_mobile .link {
+    position: absolute;
+    bottom: 28px;
+    left: 350px;
+    z-index: 3;
+  }
+  main .main_text_mobile .link a {
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #fff;
+  }
+  main .main_text_mobile .cowboy {
+    position: absolute;
+    top: 90px;
+    right: 120px;
+  }
+  main .main_text {
+    display: none;
+  }
+  main .main_animate {
+    padding: 0;
+    padding-left: 10px;
+    width: 300px;
+    height: 285px;
+  }
+  main .main_animate .wheel_inside {
+    width: 80%;
+    top: -21px;
+    left: 249px;
+  }
+  main .main_animate .wheel_outside {
+    width: 100%;
+    left: 220px;
+    bottom: -5px;
+  }
+  main .main_animate .btn {
+    top: 85px;
+    left: 345px;
+    font-size: 16px;
+  }
+  main .main_animate .btn:hover {
+    transform: scale(1);
+  }
+  footer {
+    padding: 13px 0;
+  }
+  footer .footer_wrapper > div {
+    margin-bottom: 10px;
+  }
+  footer .footer_wrapper .footer_payment a:hover,
+  footer .footer_wrapper .footer_app a:hover,
+  footer .footer_wrapper .footer_social a:hover {
+    transform: scale(1);
+  }
+}
+@media (max-width: 767.98px) {
+  .wrapper {
+    background: url("../img/bg/rectangle_top.png") top center/contain no-repeat,
+      url("../img/bg/bg_mobile.jpg") center center/cover no-repeat;
+  }
+  header {
+    padding: 13px 20px 0 20px;
+  }
+  main .main_text_mobile .title {
+    font-size: 20px;
+  }
+  main .main_text_mobile .header {
+    margin: 8px 0 0 20px;
+  }
+  main .main_text_mobile .info {
+    margin-left: 20px;
+    margin-bottom: 90px;
+  }
+  main .main_text_mobile .link {
+    bottom: 30px;
+    left: 130px;
+  }
+  main .main_text_mobile .cowboy {
+    right: 0;
+  }
+  main .main_animate .wheel_inside {
+    top: -21px;
+    left: 29px;
+  }
+  main .main_animate .wheel_outside {
+    left: 0;
+  }
+  main .main_animate .btn {
+    top: 87px;
+    left: 130px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 575.98px) {
+  header {
+    padding: 13px 9px 0 14px;
+  }
+  main .main_text_mobile .title {
+    margin-top: 12px;
+    font-size: 14px;
+  }
+  main .main_text_mobile .header {
+    margin: 4px 0 0 14px;
+    width: 245px;
+    font-size: 28px;
+  }
+  main .main_text_mobile .info {
+    margin-left: 14px;
+    line-height: 28px;
+  }
+  main .main_text_mobile .link {
+    bottom: 20px;
+    left: 110px;
+  }
+  main .main_animate {
+    width: 250px;
+  }
+  main .main_animate .wheel_inside {
+    top: 30px;
+    left: 25px;
+  }
+  main .main_animate .btn {
+    top: 120px;
+    left: 105px;
+  }
+  footer .footer_wrapper > div {
+    margin-bottom: 25px;
+  }
+}
