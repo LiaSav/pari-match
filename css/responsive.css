@@ -3,8 +3,8 @@
     padding: 27px 30px 0 30px;
   }
   main .main_text {
-    padding-left: 10px;
-    width: 300px;
+    padding-left: 27px;
+    width: 440px;
   }
   main .main_header {
     font-size: 3rem;
@@ -12,10 +12,19 @@
   main .main_info {
     font-size: 2rem;
   }
+  main .wheel_outside {
+    left: 300px;
+  }
+  main .wheel_inside {
+    left: 370px;
+  }
+  main .btn {
+    left: 625px;
+  }
 }
 @media (max-width: 1399.98px) {
   main .main_text {
-    padding-left: 20px;
+    width: 330px;
   }
   main .main_header {
     font-size: 2.5rem;
@@ -23,46 +32,41 @@
   main .main_info {
     font-size: 1.5rem;
   }
-  main .main_animate .wheel_inside {
-    left: -20px;
+  main .wheel_outside {
+    left: 200px;
   }
-  main .main_animate .wheel_outside {
-    left: -90px;
+  main .wheel_inside {
+    left: 270px;
   }
-  main .main_animate .btn {
-    left: 230px;
+  main .btn {
+    left: 525px;
   }
   footer .footer_wrapper > div {
     width: 17%;
+  }
+  .modal-window {
+    padding: 32px 60px 57px 60px;
   }
 }
 @media (max-width: 1199.98px) {
   main {
     background: url("../img/bg/smoke.png") bottom center / contain no-repeat;
   }
-  main .main_animate {
-    padding: 0;
-    width: 600px;
-    height: 700px;
+  main .wheel_outside {
+    top: 270px;
+    left: 150px;
+    width: 694px;
+    height: 803px;
   }
-  main .main_animate .wheel_inside {
-    width: 80%;
-    top: 83px;
-    left: 0px;
+  main .wheel_inside {
+    top: 340px;
+    left: 212px;
+    width: 565px;
+    height: 565px;
   }
-  main .main_animate .wheel_outside {
-    width: 100%;
-    left: -60px;
-    bottom: -5px;
-  }
-  main .main_animate .btn {
-    top: 308px;
-    left: 180px;
-    font-weight: 700;
-    font-size: 38px;
-    line-height: 22px;
-    text-align: center;
-    text-transform: uppercase;
+  main .btn {
+    top: 590px;
+    left: 425px;
   }
   footer {
     padding: 21px 0;
@@ -85,11 +89,23 @@
     order: 4;
     margin-bottom: 0;
   }
+  .modal-window {
+    padding: 32px 60px 57px 60px;
+  }
+  .modal-title {
+    font-size: 34px;
+  }
+  .modal-amount {
+    font-size: 110px;
+  }
+  .modal-info {
+    line-height: 110px;
+  }
 }
 @media (max-width: 991.98px) {
   .wrapper {
     background: url("../img/bg/rectangle_top.png") top center/contain no-repeat,
-      url("../img/bg/bg.jpg") center center/cover no-repeat;
+      url("../img/bg/bg_mobile.jpg") center center/cover no-repeat;
   }
   header {
     padding: 13px 30px 0 30px;
@@ -121,9 +137,10 @@
   }
   main {
     display: block;
+    height: 909px;
     background: url("../img/bg/golden_dust_mobile.png") bottom left / contain
         repeat-x,
-      url("../img/bg/smoke.png") bottom center / contain no-repeat;
+      url("../img/bg/smoke.png") center bottom / contain no-repeat;
   }
   main .main_text_mobile {
     display: block;
@@ -140,7 +157,7 @@
     color: #fff;
   }
   main .main_text_mobile .header {
-    margin: 8px 0 0 120px;
+    margin: 68px 0 0 30px;
     width: 300px;
     font-weight: 700;
     font-size: 32px;
@@ -148,7 +165,7 @@
     color: #f8ff13;
   }
   main .main_text_mobile .info {
-    margin-left: 120px;
+    margin-left: 30px;
     margin-bottom: 60px;
     font-weight: 700;
     font-size: 14px;
@@ -161,47 +178,47 @@
   }
   main .main_text_mobile .link {
     position: absolute;
-    bottom: 28px;
-    left: 350px;
+    bottom: 20px;
+    left: 260px;
     z-index: 3;
   }
   main .main_text_mobile .link a {
     font-weight: 300;
-    font-size: 9px;
+    font-size: 12px;
     line-height: 24px;
     text-decoration: underline;
     color: #fff;
   }
   main .main_text_mobile .cowboy {
     position: absolute;
-    top: 90px;
-    right: 120px;
+    bottom: -45px;
+    right: 0;
+    width: 626px;
+    height: 827px;
+    background: url("../img/bg/cowboy_mobile.png") right bottom/contain
+      no-repeat;
   }
   main .main_text {
     display: none;
   }
-  main .main_animate {
-    padding: 0;
-    padding-left: 10px;
-    width: 300px;
-    height: 285px;
+  main .wheel_outside {
+    top: 350px;
+    left: 22px;
+    width: 494px;
+    height: 603px;
   }
-  main .main_animate .wheel_inside {
-    width: 80%;
-    top: -21px;
-    left: 249px;
+  main .wheel_inside {
+    top: 403px;
+    left: 55px;
+    width: 425px;
+    height: 425px;
   }
-  main .main_animate .wheel_outside {
-    width: 100%;
-    left: 220px;
-    bottom: -5px;
+  main .btn {
+    top: 590px;
+    left: 217px;
+    font-size: 32px;
   }
-  main .main_animate .btn {
-    top: 85px;
-    left: 345px;
-    font-size: 16px;
-  }
-  main .main_animate .btn:hover {
+  main .btn:hover {
     transform: scale(1);
   }
   footer {
@@ -215,6 +232,22 @@
   footer .footer_wrapper .footer_social a:hover {
     transform: scale(1);
   }
+  .modal-window {
+    padding: 32px 40px 57px 40px;
+  }
+  .modal-title {
+    font-size: 30px;
+  }
+  .modal-amount {
+    font-size: 100px;
+  }
+  .modal-info {
+    font-size: 20px;
+    line-height: 100px;
+  }
+  .modal-btn {
+    width: 331px;
+  }
 }
 @media (max-width: 767.98px) {
   .wrapper {
@@ -224,69 +257,128 @@
   header {
     padding: 13px 20px 0 20px;
   }
+  main {
+    height: 471px;
+  }
   main .main_text_mobile .title {
     font-size: 20px;
   }
   main .main_text_mobile .header {
-    margin: 8px 0 0 20px;
+    margin: 8px 0 0 50px;
   }
   main .main_text_mobile .info {
-    margin-left: 20px;
+    margin-left: 50px;
     margin-bottom: 90px;
   }
   main .main_text_mobile .link {
-    bottom: 30px;
-    left: 130px;
+    bottom: 5px;
+    left: 210px;
+  }
+  main .main_text_mobile .link a {
+    font-size: 9px;
   }
   main .main_text_mobile .cowboy {
-    right: 0;
+    right: 100px;
+    width: 226px;
+    height: 427px;
   }
-  main .main_animate .wheel_inside {
-    top: -21px;
-    left: 29px;
+  main .wheel_inside {
+    top: 229px;
+    left: 122px;
+    width: 204px;
+    height: 204px;
   }
-  main .main_animate .wheel_outside {
-    left: 0;
+  main .wheel_outside {
+    top: 205px;
+    left: 100px;
+    width: 250px;
+    height: 285px;
   }
-  main .main_animate .btn {
-    top: 87px;
-    left: 130px;
+  main .btn {
+    top: 320px;
+    left: 203px;
     font-size: 13px;
+    line-height: 22px;
+  }
+  .modal-window {
+    padding: 22px 20px 37px 20px;
+  }
+  .modal-title {
+    font-size: 23px;
+  }
+  .modal-amount {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  .modal-info {
+    font-size: 20px;
+    line-height: 80px;
+  }
+  .modal-btn {
+    width: 300px;
+    font-size: 23px;
   }
 }
 @media (max-width: 575.98px) {
-  header {
-    padding: 13px 9px 0 14px;
-  }
   main .main_text_mobile .title {
     margin-top: 12px;
     font-size: 14px;
   }
   main .main_text_mobile .header {
-    margin: 4px 0 0 14px;
+    margin: 5px 0 0 15px;
     width: 245px;
     font-size: 28px;
   }
   main .main_text_mobile .info {
-    margin-left: 14px;
+    margin-left: 15px;
     line-height: 28px;
   }
   main .main_text_mobile .link {
-    bottom: 20px;
-    left: 110px;
+    left: 120px;
   }
-  main .main_animate {
-    width: 250px;
+  main .main_text_mobile .cowboy {
+    right: 0;
   }
-  main .main_animate .wheel_inside {
-    top: 30px;
-    left: 25px;
+  main .wheel_inside {
+    left: 22px;
   }
-  main .main_animate .btn {
-    top: 120px;
-    left: 105px;
+  main .wheel_outside {
+    left: 0;
+  }
+  main .btn {
+    left: 103px;
   }
   footer .footer_wrapper > div {
     margin-bottom: 25px;
+  }
+  .modal-window {
+    padding: 22px 20px 37px 20px;
+  }
+  .modal-close {
+    top: 14px;
+    right: 14px;
+    width: 10px;
+    height: 10px;
+  }
+  .modal-title {
+    font-size: 18px;
+    line-height: 52px;
+  }
+  .modal-amount {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .modal-info {
+    font-size: 13px;
+    line-height: 52px;
+  }
+  .modal-btn {
+    padding: 12px 39px;
+    width: 200px;
+    font-size: 16px;
+    -webkit-transform: skew(0deg);
+    -moz-transform: skew(0deg);
+    -o-transform: skew(0deg);
+    transform: skew(0deg);
   }
 }
